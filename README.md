@@ -2,9 +2,8 @@
 
 This is our Pytorch implementation for the paper:
 
->Inhomogeneous Social Recommendation with Hypergraph Convolutional Networks.
+>Zirui Zhu, Chen Gao, Xu Chen, Nian Li, Depeng Jin, and Yong Li. Inhomogeneous Social Recommendation with Hypergraph Convolutional Networks, in ICDE 2022.
 
-Author: Anonymous authors.
 
 ## Introduction
 Social HyperGraph Convolutionl Network (SHGCN) is a new recommendation framework based on hypergraph convolution, effectively utilizing the triple social relations.

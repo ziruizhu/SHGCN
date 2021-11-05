@@ -86,7 +86,7 @@ if __name__ == '__main__':
     if platform.system() == 'Linux':
         import setproctitle
 
-        setproctitle.setproctitle(args.model + "_%d@zhuzirui" % randint(1000))
+        setproctitle.setproctitle(args.model + "_%d" % randint(1000))
         os.environ["CUDA_VISIBLE_DEVICES"] = args.gpu
     args.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     from utility.data_arr import arr
